@@ -35,6 +35,8 @@ namespace EFGetStarted
                 Console.WriteLine("Delete the blog");
                 db.Remove(blog);
                 db.SaveChanges();
+
+                //i just changed a line of code
             }
         }
     }
